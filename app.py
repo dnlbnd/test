@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return json.dumps({"message": "Cleared"})
+    return json.dumps({"message": "CHECKED"})
 
 @app.route('/hello')
 def index2():
