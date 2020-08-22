@@ -10,7 +10,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route("/hello")
 @cross_origin()
 def helloWorld():
-  return json.loads({"message": "ANIL!!"})
+  return json.dumps({"message": "ANIL!!"})
 
 @app.route("/")
 @cross_origin()
