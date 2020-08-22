@@ -9,7 +9,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route("/hello")
 @cross_origin()
-def helloWorld():
+def helloWorld2():
   return json.dumps({"message": "ANIL!!"})
 
 @app.route("/")
